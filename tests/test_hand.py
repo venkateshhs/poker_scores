@@ -1,5 +1,5 @@
-import pytest
 from poker.hand import Hand
+
 
 def test_hand_ranking():
     hand = Hand(["5H", "5C", "6S", "7S", "KD"])

@@ -23,7 +23,7 @@ def main() -> None:
         "player",
         type=int,
         choices=[1, 2, 3],
-        nargs='?', #Indicates that there can be 0 or more arguments in CLI
+        nargs='?',  # Indicates that there can be 0 or more arguments in CLI
         default=1,
         help="Enter 1 for Player 1 wins (default), 2 for Player 2 wins, 3 for ties."
     )
